@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_other"
+        android:icon="@drawable/ic_more"
+        android:title="@string/morebtn"
+        app:showAsAction="always">
+
+        <menu>
+
+            <group>
+
+                <!--                <item-->
+                <!--                    android:id="@+id/menu_settings"-->
+                <!--                    android:title="@string/settings"-->
+                <!--                    android:visible="true" />-->
+
+                <item
+                    android:id="@+id/menu_rate"
+                    android:title="@string/rate_us"
+                    android:visible="true" />
+
+
+                <item
+                    android:id="@+id/menu_share"
+                    android:title="@string/share"
+                    android:visible="true" />
+
+                <item
+                    android:id="@+id/menu_about"
+                    android:title="@string/about_us"
+                    android:visible="true" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>

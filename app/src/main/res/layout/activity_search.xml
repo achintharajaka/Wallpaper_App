@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".SearchActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/search_cardCv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/card_background"
+        app:cardCornerRadius="8dp">
+
+        <EditText
+            android:id="@+id/searchEt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/baseline_search_24"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/text_color"
+            android:hint="Search..."
+            android:paddingStart="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="14dp"
+            tools:ignore="RtlSymmetry" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_cardCv"
+        android:padding="@dimen/grid_space_wallpaper"
+        android:scrollbars="none"
+        android:scrollingCache="true" />
+
+    <include
+        android:id="@+id/lyt_no_item"
+        layout="@layout/include_no_item"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/lyt_failed"
+        layout="@layout/include_failed"
+        android:visibility="gone" />
+</RelativeLayout>

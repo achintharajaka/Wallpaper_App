@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#111111</color>
+    <color name="background">#111111</color>
+    <color name="card_background">#161616</color>
+    <color name="primary_text">#F2F3F6</color>
+    <color name="secondary_text">#EFF1F8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dashbord_item_1">#2CC2EA</color>
+    <color name="dashbord_item_2">#4DE9C9</color>
+    <color name="dashbord_item_3">#72A4FF</color>
+    <color name="dashbord_item_4">#8B72FF</color>
+
+    <color name="text_color">#FFFFFF</color>
+    <color name="search_icon_color">#D81B60</color>
+    <color name="AdvancedCardView_strok">#111111</color>
+    <color name="AdvancedCardView_background">#D3555A75</color>
+    <color name="salary">#D748FF</color>
+    <color name="civ_border_color">#5120FF</color>
+
+    <!--ToolbarIcon Color-->
+    <color name="toolbar_icon">#D81B60</color>
+
+    <!--others-->
+    <color name="colorShimmer">#BCBEC1</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorPlaceholder">#EDEDED</color>
+
+    <color name="colorBackgroundDark">#111111</color>
+
+
+    <!-- res/values-night/colors.xml -->
+    <color name="coustom_dialog_text_color">#FFFFFF</color>
+
+
+    <color name="bottom_nav_item_icon_tint">#ECEBE9</color> <!-- Night mode color -->
+    <color name="bottom_nav_checked">#D81B60</color>   <!-- Night mode color -->
+    <color name="bottom_nav_default">#919191</color>
+    <!-- Define other colors here for night theme -->
+
+
+    <!--    Category Color Pallet-->
+    <color name="red">#FF0000</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="purple">#800080</color>
+    <color name="deep_purple">#673AB7</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="blue">#2196F3</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="teal">#009688</color>
+    <color name="green">#4CAF50</color>
+    <color name="lime">#CDDC39</color>
+    <color name="orange">#FF9800</color>
+    <color name="brown">#795548</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="blue_gray">#607D8B</color>
+    <color name="black">#000000</color>
+
+</resources>

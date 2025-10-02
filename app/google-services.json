@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "773823000983",
+    "project_id": "pop-wallpapers-uhd",
+    "storage_bucket": "pop-wallpapers-uhd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773823000983:android:c308c02ff3671ed48554d2",
+        "android_client_info": {
+          "package_name": "pop.wallpaper.uhd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB__rKQV7CAzvPGAP0NtqrGGsGj_dgCHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773823000983:android:7fe11529d2a62c128554d2",
+        "android_client_info": {
+          "package_name": "pop.wallpaper.uhd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB__rKQV7CAzvPGAP0NtqrGGsGj_dgCHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

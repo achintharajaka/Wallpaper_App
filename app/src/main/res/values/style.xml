@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AlertDialogDayTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Set button text color for day mode -->
+        <item name="textColorAlertDialogListItem">#000</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="AlertDialogNightTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <!-- Set button text color for night mode -->
+        <item name="textColorAlertDialogListItem">#000</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="CustomNavigationBarView" parent="Widget.Material3.BottomNavigationView">
+        <!-- Set text color for night mode -->
+        <item name="android:textColorSecondary">@color/text_color</item>
+    </style>
+
+</resources>
